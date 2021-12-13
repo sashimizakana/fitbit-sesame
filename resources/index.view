@@ -1,0 +1,4 @@
+<svg>
+  <image id="lock" pointer-events="visible" href="locked.png" class="loading" y="45% - 84" x="50% - 84" width="168" height="168"></image>
+  <text id="battery" y="80%" x="50%"></text>
+</svg>

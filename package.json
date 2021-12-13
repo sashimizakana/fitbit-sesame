@@ -1,0 +1,29 @@
+{
+  "name": "sesame",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.2",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "83921258-7bdd-485d-bc28-ceac1e58c796",
+    "appType": "app",
+    "appDisplayName": "Sesame",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {},
+    "defaultLanguage": "ja-JP"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
