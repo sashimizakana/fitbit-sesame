@@ -29,9 +29,6 @@ function calcAesCmac() {
   const list = new Uint8Array(dv.buffer.slice(1, 4));
   let message = "";
   for (let i = 0; i < list.length; i++) {
-    if (list[i] < 0) {
-      list[i] = 0xffffffff + list[i] + 1;
-    }
     message += list[i].toString(16).toLowerCase();
   }
   message = CryptoJS.enc.Hex.parse(message);
